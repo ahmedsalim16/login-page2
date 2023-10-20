@@ -1,0 +1,373 @@
+﻿
+/*.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: inherit;
+    border-radius:6px;
+    margin:5px;
+}
+
+.navbar a:hover {
+    background-color: #ccc;
+}
+*/
+/*@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    color: whitesmoke;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+body {
+    background-color: #1a237e;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+h1 {
+    font-size: 4rem;
+    display: inline-block;
+    font-family: 'Nosifer', cursive;
+    background: url(oranges.jpg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 0.1px green;
+    -webkit-text-fill-color: transparent;
+    animation: text 3s linear infinite, hover 3s linear infinite;
+}
+
+.button {
+    border: solid 5px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 34px;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #b81159;
+}
+
+.button3:hover {
+    background-color: #dd133f;
+    color: white;
+}
+
+@keyframes text {
+    from {
+        background-position: 100% 20%;
+    }
+
+    to {
+        background-position: 10% 0%;
+    }
+}
+
+@keyframes hover {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+.header{
+    position:fixed;
+    height:60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 100px;
+    z-index:99;
+    background:transparent;
+}
+.header .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size:20px;
+    font-weight:600;
+}
+.nav a:hover{
+    border-bottom:4px solid #fff;
+    transition:.2s;
+}
+.search{
+    margin-left:520px;
+    display:flex;
+}
+.search i {
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 20px;
+    margin-top: auto;
+}
+.search a{
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 20px;
+    text-decoration:none;
+    margin-right: 15px;
+    margin-top: auto;
+}
+.search a:hover{
+    transform:scale(.9);
+    transition:.8s;
+}
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.N6OlzV6qCE7dikcEUM7IdQHaEK&pid=Api&P=0&h=220');
+    background-position: center;
+    background-size: cover;
+    filter: blur(5px);
+}
+.home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    height: 75%;
+    transform: translate(-50%,-50%);
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.N6OlzV6qCE7dikcEUM7IdQHaEK&pid=Api&P=0&h=220');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 10px 10px 0;
+}
+.content{
+    display:flex;
+    flex-direction:column;
+    width:700px;
+    padding:100px 0;
+}
+.content a{
+    position:relative;
+    text-decoration:none;
+    color:#fff;
+    font-size:3em;
+    font-weight:700;
+    top:-40px;
+    left:80px;
+}
+.icon a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    top: 0px;
+    left: -9px;
+    padding: 10px;
+}
+.icon a:hover{
+    transform:scale(2);
+    transition:.2s;
+}
+.content h2{
+    font-size:3.5em;
+    text-align:center;
+    color:#fff;
+    letter-spacing:10px;
+}
+.login button:hover {
+    transform: scale(.9);
+    transition: .2s;
+}
+.content h3 {
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
+.content pre {
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    margin-top:20px;
+}
+.content .icon {
+    margin-top: 20px;
+    font-size: 1.5em;
+    display:flex;
+    justify-content:center;
+}
+.content .icon i {
+    margin-left: 20px;
+    color: #fff;
+}
+.login{
+    width:450px;
+    position:relative;
+    padding:100px 20px;
+    backdrop-filter:blur(10px);
+}
+.login h2{
+    color:#fff;
+    text-align:center;
+}
+.login .input{
+    position:relative;
+    width:100%;
+    height:30px;
+    margin-bottom:40px;
+}
+.search input {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    width: 130px;
+    height: 40px;
+}
+.login .input .input1{
+    font-size:16px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:transparent;
+    border:none;
+    outline:none;
+    border-bottom:2px solid #fff;
+    color:#fff;
+    width:100%;
+    height:100%;
+}
+::placeholder{
+    color:#fff;
+    font-size:18px;
+}
+.login .input i{
+    position:relative;
+    right:-370px;
+    bottom:27px;
+    color:#fff;
+}
+.check{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:40px;
+    color:#fff;
+}
+.check a{
+    text-decoration:none;
+    color:#fff;
+}
+.check a:hover{
+
+}
+.login .button{
+    width:100%;
+    height:40px;
+    margin-bottom:15px;
+}
+button{
+    width:100%;
+    height:40px;
+    background-color:rgb(66,44,48);
+    border:none;
+    outline:none;
+    font-size:20px;
+    font-weight:700;
+    border-radius:7px;
+    color:#fff;
+}
+button:active{
+    font-size:25px;
+}
+.login .sign-up{
+    display:flex;
+    justify-content:center;
+}
+.login .sign-up a{
+    text-decoration:none;
+    color:#fff;
+    font-weight:700;
+
+}
+.login .sign-up p{
+    color:#fff;
+}
+.sign-up a:hover{
+    text-decoration:underline;
+}
